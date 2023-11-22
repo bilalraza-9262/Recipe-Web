@@ -68,7 +68,7 @@ export const Rocker = () => {
 				</div>
 				<div className="border mt-16 p-6 rounded-md bg-slate-50 shadow-[5px_5px_rgba(65,_117,_5,_1),_10px_10px_rgba(65,_117,_5,_0.6),_15px_15px_rgba(65,_117,_5,_0.4),_20px_20px_rgba(65,_117,_5,_0.2),_25px_25px_rgba(65,_117,_5,_0.1)]">
 					<h2 className="font-semibold text-2xl text-center m-6 drop-shadow-lg underline">A Flavorful Journey with Bilal Raza!</h2>
-					<p className="text-lg font-light leading-relaxed m-5">Hi, I'm Bilal Raza, and let me take you on a journey through my culinary adventures. Cooking, for me, is more than just preparing meals; it's a delightful fusion of creativity, passion, and a dash of experimentation</p>
+					<p className="text-lg font-light leading-relaxed m-5">Hi I am Bilal Raza, and let me take you on a journey through my culinary adventures. Cooking for me is more than just preparing meals; it is a delightful fusion of creativity passion and a dash of experimentation</p>
 					{journeyData.map((data, i) => (
 						<div key={i}>
 							<h3 className="text-xl mb-2 font-medium font-sans m-4">{data.heading}</h3>

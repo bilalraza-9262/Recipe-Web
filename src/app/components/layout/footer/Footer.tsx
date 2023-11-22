@@ -38,15 +38,15 @@ export const Footer = () => {
 					<div className=" mt-5">
 						<h3 className="font-medium w-28 text-lg">Social Media </h3>
 						<ul>
-							<li  className="m-2">
+							<li className="m-2">
 
-								<Link href={"https://www.facebook.com"}><img width="40" height="40" src="https://img.icons8.com/ios-filled/50/000000/facebook-new.png" alt="facebook-new" /></Link>
+								<Link href={"https://www.facebook.com"}><Image width="40" height="40" src="https://img.icons8.com/ios-filled/50/000000/facebook-new.png" alt="facebook-new" /></Link>
 							</li>
-							<li  className="m-2">
-								<Link href={"https://www.instagram.com"}> <img width="40" height="40" src="https://img.icons8.com/ios-glyphs/30/000000/instagram-new.png" alt="instagram-new" /></Link>
+							<li className="m-2">
+								<Link href={"https://www.instagram.com"}> <Image width="40" height="40" src="https://img.icons8.com/ios-glyphs/30/000000/instagram-new.png" alt="instagram-new" /></Link>
 							</li>
-							<li  className="m-2">
-								<Link href={"https://www.linkedin.com/feed/"}> <img width="40" height="40" src="https://img.icons8.com/ios-filled/50/000000/linkedin.png" alt="linkedin" /></Link>
+							<li className="m-2">
+								<Link href={"https://www.linkedin.com/feed/"}> <Image width="40" height="40" src="https://img.icons8.com/ios-filled/50/000000/linkedin.png" alt="linkedin" /></Link>
 							</li>
 						</ul>
 					</div>
