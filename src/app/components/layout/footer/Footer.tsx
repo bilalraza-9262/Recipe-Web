@@ -2,6 +2,9 @@ import { Wrapper } from "@/app/components/shared/Wrapper"
 import Image from "next/image"
 import Logo from "@/../public/logo2.png"
 import Link from "next/link"
+import facIcon from "@/app/components/assert/images/icons8-facebook-30.png"
+import insIcon from "@/app/components/assert/images/icons8-instagram-30.png"
+import linIcon from "@/app/components/assert/images/icons8-linkedin-30.png"
 
 export const Footer = () => {
 	return (
@@ -40,13 +43,13 @@ export const Footer = () => {
 						<ul>
 							<li className="m-2">
 
-								<Link href={"https://www.facebook.com"}><Image width="40" height="40" src="https://img.icons8.com/ios-filled/50/000000/facebook-new.png" alt="facebook-new" /></Link>
+								<Link href={"https://www.facebook.com"}><Image width="40" height="40" src={facIcon} alt="facebook-new" /></Link>
 							</li>
 							<li className="m-2">
-								<Link href={"https://www.instagram.com"}> <Image width="40" height="40" src="https://img.icons8.com/ios-glyphs/30/000000/instagram-new.png" alt="instagram-new" /></Link>
+								<Link href={"https://www.instagram.com"}> <Image width="40" height="40" src={insIcon} alt="instagram-new" /></Link>
 							</li>
 							<li className="m-2">
-								<Link href={"https://www.linkedin.com/feed/"}> <Image width="40" height="40" src="https://img.icons8.com/ios-filled/50/000000/linkedin.png" alt="linkedin" /></Link>
+								<Link href={"https://www.linkedin.com/feed/"}> <Image width="40" height="40" src={linIcon} alt="linkedin" /></Link>
 							</li>
 						</ul>
 					</div>
