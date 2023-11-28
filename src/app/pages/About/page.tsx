@@ -7,7 +7,7 @@ function About() {
 
 	return (
 		<Wrapper>
-			<section className="border m-3 mb-10 mt-7 rounded-lg shadow-[rgba(131,_191,_111,_0.4)_0px_30px_90px] bg-gray-100 p-4">
+			<section className="border m-3 mb-10 mt-7 rounded-lg shadow-[inset_-12px_-8px_40px_#46464620] bg-gray-100 p-4">
 				<div className="">
 					<h3 className="font-semibold text-3xl ml-0 m-2 text-center">Who We Are?</h3>
 					<p className="font-light text-lg mt-3 mx-auto mb-7 leading-8">Simply Recipes is here to help you cook delicious meals with less stress and more joy. We offer recipes and cooking advice for home cooks, by home cooks. Helping create “kitchen wins” is what we’re all about.
