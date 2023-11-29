@@ -1,6 +1,5 @@
 import { Wrapper } from "@/app/components/shared/Wrapper"
 import Image from "next/image"
-import "./rock.css"
 
 // fast food images
 import Link from "next/link"

@@ -1,6 +1,3 @@
-
-import Image from "next/image";
-import ShefImage from "./cheif image.jpg"
 import { Wrapper } from "@/app/components/shared/Wrapper";
 
 function About() {
