@@ -82,7 +82,7 @@ const Recipe = () => {
 						<div className="flex items-center flex-col" key={i} onClick={() => {
 							setItemSelected(img.head);
 						}} >
-							<Image className="w-80 h-60 object-cover hover:shadow-[rgba(0,_0,_0,_0.4)_0px_30px_90px] rounded-lg" src={img.image} alt="Burger" />
+							<Image className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 hover:cursor-pointer duration-300   w-80 h-60 object-cover hover:shadow-[rgba(0,_0,_0,_0.4)_0px_30px_90px] rounded-lg" src={img.image} alt="Burger" />
 							<label className=" font-semibold text-xl" htmlFor="">{img.head}</label>
 						</div>)
 				}

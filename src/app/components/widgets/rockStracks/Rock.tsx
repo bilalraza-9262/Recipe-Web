@@ -60,7 +60,7 @@ export const Rocker = () => {
 					<div className="flex justify-center flex-wrap ">
 						{rockImages.map((item, i) => (
 							<figure key={i} className="hover:text-green-300">
-								<Link href={"../../../pages/recipes"}><Image className="hover:shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)]  rounded-2xl w-96 h-64 m-3 " src={item.imageName} alt="image1" /></Link>
+								<Link href={"../../../pages/recipes"}><Image className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 hover:cursor-pointer hover:shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)]  rounded-2xl w-96 h-64 m-3 " src={item.imageName} alt="image1" /></Link>
 								<figcaption><h3 className=" font-serif text-2xl text-center font-black">{item.capTionName} </h3></figcaption>
 							</figure>
 						))}

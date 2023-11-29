@@ -12,20 +12,21 @@ const Hero = () => {
 
 
 		<Wrapper>
-			<section className=" flex  mt-7 items-center lg:h-[70vh]  md:items-stretch md:flex-row flex-col">
+			<section className="animate-fade-right  flex  mt-7 items-center lg:h-[70vh]  md:items-stretch md:flex-row flex-col">
 
 				<Image className="w-full object-cover rounded-sm object- md:rounded-l-xl md:w-2/4" src={HeroRecipee} alt="Family Kitchen" />
 
 				<div className="md:w-2/4 w-full rounded-r-xl bg-lime-100 flex text-center flex-row items-center">
 					<div>
 						<p className="font-light m-3 text-teal-500">85% would visit this again</p>
-						<h1 className="lg:font-bold  font-semibold font-serif text-xl lg:text-4xl m-4  ">Welcome To Food Studio </h1>
-						<h3 className="font-light text-sm sm:text-lg m-4">
+						<h1 className="lg:font-bold  font-semibold font-serif text-xl lg:text-4xl m-4  ">Welcome To F
+						amily Kitchen </h1>
+    						<h3 className="font-light text-sm sm:text-lg m-4">
 
 							We welcome you to a delicious feast of exquisite dishes in Foodcom. With a wide range of world cuisines to choose from, we guarantee you a sumptuous feast experience in our restaurant!
 						</h3>
 						<div className="mt-5">
-							<MyButton><Link href={"../../../pages/tipsPage"} >Tips</Link></MyButton>
+							<MyButton><Link  href={"../../../pages/tipsPage"} >Tips</Link></MyButton>
 						</div>
 					</div>
 				</div>

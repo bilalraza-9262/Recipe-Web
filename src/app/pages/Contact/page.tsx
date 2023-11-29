@@ -11,15 +11,15 @@ const Contact = () => {
 		<Wrapper>
 			<main className="h-screen">
 				<section className="flex justify-around flex-col sm:flex-row items-stretch">
-					<div className="flex flex-col items-center">
+					<div className="animate-fade-right flex flex-col items-center">
 						<Link href={"https://www.facebook.com"}><Image width="110" height="110" src={image1} alt="facebook-new" /></Link>
 						<label className="font-semibold text-lg mt-3" htmlFor="facbook">Facebook</label>
 					</div>
-					<div className="flex flex-col items-center">
+					<div className="animate-fade-right flex flex-col items-center">
 						<Link href={"https://www.facebook.com"}><Image width="110" height="110" src={image2} alt="facebook-new" /></Link>
 						<label className="font-semibold text-lg mt-3" htmlFor="insta">Instagram</label>
 					</div>
-					<div className="flex flex-col items-center">
+					<div className="animate-fade-right flex flex-col items-center">
 						<Link href={"https://www.facebook.com"}><Image width="110" height="100" src={image3} alt="facebook-new" /></Link>
 						<label className="font-semibold text-lg mt-3" htmlFor="linkdin">Linkdin</label>
 					</div>
