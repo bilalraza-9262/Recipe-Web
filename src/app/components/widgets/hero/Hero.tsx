@@ -19,8 +19,7 @@ const Hero = () => {
 				<div className="md:w-2/4 w-full rounded-r-xl bg-lime-100 flex text-center flex-row items-center">
 					<div>
 						<p className="font-light m-3 text-teal-500">85% would visit this again</p>
-						<h1 className="lg:font-bold  font-semibold font-serif text-xl lg:text-4xl m-4  ">Welcome To F
-						amily Kitchen </h1>
+						<h1 className="lg:font-bold  font-semibold font-serif text-xl lg:text-4xl m-4  ">Welcome To Family Kitchen </h1>
     						<h3 className="font-light text-sm sm:text-lg m-4">
 
 							We welcome you to a delicious feast of exquisite dishes in Foodcom. With a wide range of world cuisines to choose from, we guarantee you a sumptuous feast experience in our restaurant!

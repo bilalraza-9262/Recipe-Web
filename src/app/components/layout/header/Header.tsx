@@ -19,10 +19,10 @@ const Header = () => {
 
 					<div className="flex space-x-4 sm:space-x-7 pt-3  mx-auto ">
 
-						<Link className="hover:text-green-300 focus:text-green-300" href={"/"}>Home </Link>
+						<Link className={`hover:text-green-300 focus:text-green-300 `} href={"/"}>Home </Link>
 
 
-						<Link className="hover:text-green-300 focus:text-green-300" href={"../../../pages/recipes"}> Recipes</Link>
+						<Link className="hover:text-green-30 focus:text-green-300" href={"../../../pages/recipes"}> Recipes</Link>
 
 
 						<Link className="hover:text-green-300 focus:text-green-300" href={"../../../pages/tipsPage"}> Tips</Link>
