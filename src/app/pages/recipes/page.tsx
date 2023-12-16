@@ -81,10 +81,9 @@ const Recipe = () => {
 				<div className="flex flex-wrap gap-10 justify-center m-8 border p-4">{images.map((img, i) => {
 					return (
 						<div className="flex items-center flex-col" key={i} onClick={() => {
-							
 							setItemSelected(img.head);
-						}} >
-							<Image  className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 hover:cursor-pointer duration-300   w-80 h-60 object-cover hover:shadow-[rgba(0,_0,_0,_0.4)_0px_30px_90px] rounded-lg" src={img.image} alt="Burger" />
+						}} ><Link href={`#${img.head}`}>
+								<Image className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 hover:cursor-pointer duration-300   w-80 h-60 object-cover hover:shadow-[rgba(0,_0,_0,_0.4)_0px_30px_90px] rounded-lg" src={img.image} alt="Burger" /></Link>
 							<label className=" font-semibold text-xl" htmlFor="">{img.head}</label>
 						</div>)
 				}
