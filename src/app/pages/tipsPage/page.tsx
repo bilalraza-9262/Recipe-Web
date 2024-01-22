@@ -47,6 +47,9 @@ const data = [
 	}
 ]
 
+export const metadata = {
+	title: "Tips & Tricks"
+}
 
 const Tips = () => {
 	return (

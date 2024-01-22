@@ -6,6 +6,11 @@ import Image from "next/image"
 import image1 from "./facebook1.png"
 import image2 from "./instaIcon.png"
 import image3 from "./linkdin.png"
+
+
+export const metadata = {
+	title: "Contact Us"
+}
 const Contact = () => {
 	return (
 		<Wrapper>

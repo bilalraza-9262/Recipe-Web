@@ -1,5 +1,8 @@
 import { Wrapper } from "@/app/components/shared/Wrapper";
 
+export const metadata = {
+	title: "About Family Kitchen"
+}
 function About() {
 
 	return (

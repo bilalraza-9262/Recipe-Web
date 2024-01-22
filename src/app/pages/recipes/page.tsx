@@ -71,7 +71,6 @@ const images = [
 	}
 ]
 
-
 const Recipe = () => {
 	const [itemSelected, setItemSelected] = useState("")
 	return (

@@ -1,5 +1,6 @@
 import { recipeData } from "./recipesData";
 
+
 export const WriteRecipe = ({ itemSelected }: { itemSelected: string }) => {
 	const resData = recipeData.find((data) => data.slug === itemSelected);
 	return (
